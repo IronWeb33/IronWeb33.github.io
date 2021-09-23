@@ -1,6 +1,23 @@
-<foaf:Person rdf:about="#danbri" xmlns:foaf="http://xmlns.com/foaf/0.1/">
-  <foaf:name>Thomas Souffleux</foaf:name>
-  <foaf:homepage rdf:resource="http://danbri.org/" />
-  <foaf:openid rdf:resource="http://danbri.org/" />
-  <foaf:img rdf:resource="/images/me.jpg" />
-</foaf:Person>
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+  <foaf:PersonalProfileDocument rdf:about="">
+    <foaf:maker rdf:resource="#me"/>
+    <foaf:primaryTopic rdf:resource="#me"/>
+    <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+    <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+  </foaf:PersonalProfileDocument>
+  <foaf:Person rdf:ID="me">
+    <foaf:name>Thomas Souffleux</foaf:name>
+    <foaf:title>Homepage</foaf:title>
+    <foaf:givenname>Thomas</foaf:givenname>
+    <foaf:family_name>Souffleux</foaf:family_name>
+    <foaf:nick>IronWeb33</foaf:nick>
+    <foaf:mbox_sha1sum>59214f768b10d36d53257721bb1959b5be7a497f</foaf:mbox_sha1sum>
+    <foaf:homepage rdf:resource="https://ironweb33.github.io/"/>
+    <foaf:phone rdf:resource="tel:0750833122"/>
+    <foaf:workInfoHomepage rdf:resource="Master Architecte Logiciel"/>
+  </foaf:Person>
+</rdf:RDF>
