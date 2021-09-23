@@ -6,14 +6,13 @@
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:foaf="http://xmlns.com/foaf/0.1/">
-
-
-<xsl:template match="/">
-  <html>
-    <body>
-      <h1><xsl:value-of select="rdf:RDF/foaf:Person/foaf:title" /></h1>
-      <h2> Détails de la personne </h2>
-      <dl>
+  
+  <xsl:template match="/">
+    <html>
+      <body>
+        <h1><xsl:value-of select="rdf:RDF/foaf:Person/foaf:title" /></h1>
+        <h2> Détails de la personne </h2>
+        <dl>
           <dt>name</dt>
           <dd><xsl:value-of select="//foaf:name" /></dd>
           <dt>title</dt>
