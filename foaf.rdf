@@ -21,6 +21,6 @@
     <foaf:phone/>tel:0750833122</foaf:phone>
     <foaf:workInfoHomepage>https://www.groupe-rhinos.com/fr</foaf:workInfoHomepage>
     <foaf:workplaceHomepage>https://www.groupe-rhinos.com/fr/</foaf:workplaceHomepage>
-    <foaf:schoolHomepage>/https://www.univ-larochelle.fr/</foaf:schoolHomepage>
+    <foaf:schoolHomepage>https://www.univ-larochelle.fr/</foaf:schoolHomepage>
   </foaf:Person>
 </rdf:RDF>
